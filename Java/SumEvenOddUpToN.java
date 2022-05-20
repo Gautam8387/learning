@@ -1,11 +1,14 @@
 // Write a program to calculate and print the sums of even and odd integers of the first n natural numbers.
 
+// Executed on the online java compiler : https://onecompiler.com/java/3y4hnrq7t
+
+
 import java.util.*;
 import java.lang.*;
 import java.io.*;
 
 /* Name of the class has to be "Main" only if the class is public. */
-class ArrayIO
+class SumEvenOddUpToN
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
