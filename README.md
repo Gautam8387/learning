@@ -1,3 +1,3 @@
-# Java_Learning
+# Language_Learning
 
-Store all programs which i made while learning Java.
+Store all BASIC programs which I made while learning different programming languages.
