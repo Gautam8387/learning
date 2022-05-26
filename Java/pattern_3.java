@@ -1,7 +1,7 @@
 /*
 	Write a Program to print the pattern 
-
-    *	
+	
+		*	
 	*	*	*	
 *	*	*	*	*	
 	*	*	*	
