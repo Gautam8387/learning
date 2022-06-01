@@ -1,0 +1,39 @@
+/*
+Write a Program to evaluate span of an array
+*/
+
+import java.util.*;
+ public class Main {
+   
+   public static int span(int[] arr){
+     
+     int max = arr[0];
+     int min = arr[0];
+     
+     for (int i=1; i<arr.length; i++)
+     {
+       if (arr[i] < min)
+       {
+         min = arr[i];
+       }
+       if (arr[i] > max)
+       {
+         max = arr[i];
+       }
+     }
+    int return_value = max - min;
+    return return_value;
+   }
+   
+   public static void main(String[] args) {
+    Scanner scn = new Scanner(System.in);
+    int n = scn.nextInt();
+    int[] arr = new int[n];
+    for(int i=0; i<n; i++)
+    {
+      arr[i] = scn.nextInt();
+    }
+    int value = span(arr);
+    System.out.println("Span: "+value);
+  } 
+}
